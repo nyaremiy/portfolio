@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.modal {
+  background-color: rgba($color: #333, $alpha: 0.3);
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  animation-duration: 0.4s;
+  animation-name: modal;
+}
+.window {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.close {
+  position: absolute;
+  cursor: pointer;
+  right: -20px;
+  width: 30px;
+  top: -50px;
+}
+
+.qrcode {
+  background-color: $c-white;
+  border-radius: 10px;
+  &:hover {
+    background-color: $c-white;
+  }
+}
+
+@keyframes modal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
