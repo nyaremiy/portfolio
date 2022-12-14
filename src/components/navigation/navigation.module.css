@@ -1,0 +1,32 @@
+@import '../../css/variables.css';
+
+.list {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.item {
+  border: 1px solid var(--c-silver-night);
+  list-style-type: none;
+  color: var(--c-white);
+  font-size: 1.4rem;
+  cursor: pointer;
+  width: 100%;
+}
+.item:not(:last-child) {
+  border-right: transparent;
+}
+.item:hover {
+  color: var(--c-gold-brown);
+}
+
+.link {
+  transition: var(--tr-base);
+  text-transform: uppercase;
+  letter-spacing: 0.35rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: inherit;
+  padding: 30px 20px;
+  display: flex;
+}

@@ -1,0 +1,11 @@
+@import '../../css/variables.css';
+
+.header {
+  letter-spacing: .2rem;
+  color: var(--c-white);
+  font-size: 1rem;
+}
+
+/* .wrapper {
+  border: 1px solid var(--c-silver-night);
+} */

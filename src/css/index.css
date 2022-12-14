@@ -1,0 +1,24 @@
+@import './variables.css';
+@import './fonts.css';
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  background-color: var(--c-bg);
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+}
