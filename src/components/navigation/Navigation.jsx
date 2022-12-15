@@ -2,6 +2,7 @@ import s from './navigation.module.css';
 import { Logo } from './../logo/Logo';
 
 export const Navigation = () => {
+
   return (
     <nav className={s.navigation}>
       <ul className={s.list}>
@@ -10,7 +11,7 @@ export const Navigation = () => {
             <Logo/>
           </a>
         </li>
-        <li className={s.item} >
+        <li className={s.item}>
           <a href='#intro' className={s.link}>intro</a>
         </li>
         <li className={s.item}>

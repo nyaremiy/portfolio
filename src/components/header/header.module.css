@@ -3,9 +3,10 @@
 .header {
   letter-spacing: .2rem;
   color: var(--c-white);
+  position: fixed;
   font-size: 1rem;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
 }
-
-/* .wrapper {
-  border: 1px solid var(--c-silver-night);
-} */

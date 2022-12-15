@@ -26,7 +26,22 @@
   letter-spacing: 0.35rem;
   text-decoration: none;
   white-space: nowrap;
-  color: inherit;
   padding: 30px 20px;
+  position: relative;
+  color: inherit;
   display: flex;
+}
+.link::before {
+  content: '';
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: var(--c-gold-brown);
+  transition: var(--tr-base);
+}
+.link:hover::before {
+  width: 100%;
+  left: 0;
 }
