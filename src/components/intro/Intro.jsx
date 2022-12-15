@@ -1,11 +1,14 @@
+import { Circles } from '../circles/Circles';
 import s from './intro.module.css';
 
 export const Intro = () => {
   return (
-    <div className={s.intro}>
+    <section className={s.intro}>
       <div className={`container ${s.wrapper}`}>
-        <div className={s.subtitle}>// Hello World</div>
-        <h1 className={s.title}>I am Nazar Yaremiy, <br/>and I'm full stack<br/> developer. ^_^</h1>
+        <div className={s.info}>
+          <div className={s.subtitle}>// Hello World</div>
+          <h1 className={s.title}>I am Nazar Yaremiy, <br/>and I'm full stack<br/> developer. ^_^</h1>
+        </div>
         <div className={s['intro-social']}>
           <ul className={s['social-list']}>
             <li className={s['social-item']}>
@@ -22,7 +25,15 @@ export const Intro = () => {
             </li>
           </ul>
         </div>
+        <div className={s.arrow}>
+          <a href="#about" className={s['arrow-link']}>
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
+            <path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"></path> 
+          </svg>
+          </a>
+        </div>
+        <Circles/>
       </div>
-    </div>
+    </section>
   )
 }

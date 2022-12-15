@@ -14,10 +14,16 @@ body {
   font-family: 'Public Sans', sans-serif;
   background-color: var(--c-bg);
   font-size: 1.6rem;
+  overflow: hidden;
+  width: 100vw;
 }
 
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
+}
+svg {
+  height: auto;
+  width: 100%;
 }
 
 .container {
