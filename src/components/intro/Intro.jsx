@@ -32,7 +32,7 @@ export const Intro = () => {
           </svg>
           </a>
         </div>
-        <Circles/>
+        {/* <Circles/> */}
       </div>
     </section>
   )
