@@ -1,6 +1,8 @@
 @import '../../css/variables.css';
 
-
+.intro {
+    overflow-x: hidden;
+}
 .wrapper {
   align-items: flex-start;
   justify-content: center;
@@ -14,14 +16,6 @@
 .info {
   position: relative;
   z-index: 2;
-}
-.subtitle {
-  font-size: var(--text-sm);
-  color: var(--c-gold-brown);
-  text-transform: uppercase;
-  margin-bottom: 6rem;
-  margin-left: 0.3rem;
-  font-weight: 500;
 }
 .title {
   font-family: 'DM Serif Display', serif;
@@ -59,11 +53,13 @@
 
 .arrow {
   position: absolute;
+  cursor: pointer;
   display: block;
   height: 2.8rem;
   width: 2.8rem;
   bottom: 10rem;
   right: 10rem;
+  z-index: 3;
 }
 .arrow-link svg{
   transition: var(--tr-base);
