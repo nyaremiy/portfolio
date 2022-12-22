@@ -32,4 +32,33 @@
   color: inherit;
   display: flex;
 }
+.navigation {
+  transition: var(--tr-cubic-fast);
+}
 
+@media (max-width: 1024px) {
+  .link {
+    padding: 20px 15px;
+  }
+}
+@media (max-width: 768px) {
+  .navigation {
+    background-color: var(--c-bg);
+    min-height: 100vh;
+    position: absolute;
+    right: -100%;
+    top: 70px;
+    height: 100%;
+    width: 100%;
+  }
+  .list {
+    flex-direction: column;
+  }
+  .item {
+    padding: 1.5rem 0;
+  }
+  .open {
+    right: 0;
+  }
+  
+}

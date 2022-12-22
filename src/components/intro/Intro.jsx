@@ -1,4 +1,4 @@
-import { Circles } from '../circles/Circles';
+// import { Circles } from '../circles/Circles';
 import s from './intro.module.css';
 
 export const Intro = () => {
@@ -7,7 +7,7 @@ export const Intro = () => {
       <div className={`container ${s.wrapper}`}>
         <div className={s.info}>
           <div className='subtitle'>{`//`} Hello World</div>
-          <h1 className={s.title}>I am Nazar Yaremiy, <br/>and I'm full stack<br/> developer. ^_^</h1>
+          <h1 className={s.title}>I am Nazar Yaremiy, and I'm full stack developer. ^_^</h1>
         </div>
         <div className={s['intro-social']}>
           <ul className={s['social-list']}>
@@ -32,7 +32,7 @@ export const Intro = () => {
           </svg>
           </a>
         </div>
-        <Circles/>
+        {/* <Circles/> */}
       </div>
     </section>
   )

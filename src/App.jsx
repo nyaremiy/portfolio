@@ -1,4 +1,4 @@
-import { About } from './components/about/About';
+// import { About } from './components/about/About';
 import { Blogs } from './components/blogs/Blogs';
 import { Header } from './components/header/Header';
 import { Intro } from './components/intro/Intro';
@@ -10,7 +10,7 @@ function App() {
     <div className="app">
       <Header/>
       <Intro/>
-      <About/>
+      {/* <About/> */}
       <Works/>
       <Blogs/>
       <SayHello/>

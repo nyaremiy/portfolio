@@ -10,3 +10,30 @@
   left: 0;
   top: 0;
 }
+.menu {
+  display: none;
+}
+.logo {
+  transition: var(--tr-base);
+  opacity: 1;
+}
+.hide {
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-color: #100f0f;
+  }
+  .nav {
+    transition: var(--tr-cubic-fast);
+    padding: 1rem 0;
+  }
+  .menu {
+    transition: var(--tr-cubic-fast);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    display: flex;
+  }
+}

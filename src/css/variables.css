@@ -6,5 +6,6 @@
   --c-white: #fff;
 
 
+  --tr-cubic-fast: .3s cubic-bezier(.8, .5, .2, 1.4);
   --tr-base: all 0.3s ease-in-out;
 }
