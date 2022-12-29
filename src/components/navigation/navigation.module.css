@@ -34,6 +34,7 @@
 }
 .navigation {
   transition: var(--tr-cubic-fast);
+  z-index: 11;
 }
 
 @media (max-width: 1024px) {

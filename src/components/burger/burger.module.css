@@ -5,6 +5,7 @@
   position: relative;
   cursor: pointer;
   display: inline-block;
+  z-index: 12;
 }
 .burger span{
   background-color:#FFF;

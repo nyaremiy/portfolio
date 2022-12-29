@@ -1,4 +1,3 @@
-// import { Circles } from '../circles/Circles';
 import s from './intro.module.css';
 
 export const Intro = () => {
@@ -32,7 +31,6 @@ export const Intro = () => {
           </svg>
           </a>
         </div>
-        {/* <Circles/> */}
       </div>
     </section>
   )
